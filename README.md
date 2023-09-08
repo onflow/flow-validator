@@ -1,23 +1,40 @@
-# Repository template
-A template enabled repository, including all necesary files to open source.
-(create an issue with the following content if you want to track the repo configuration)
 
-## Repository settings and configuration
-- [ ]  Repository info
-    - [ ]  Add repo description
-    - [ ]  Update website to https://onflow.org
-    - [ ]  Add relevant repository topics (i.e. `blockchain` `onflow`, etc)
-    - [ ]  Check issue labels on `.github/labels.yml` and do any commit to main to get them synced
-- [ ]  Define merge workflow (create new branch protection rule)
-    - [ ]  `main` branch rule:
-        - [ ]  **Require pull request reviews before merging (2 approving reviews)**
-            - [ ]  **Require review from Code Owners**
-        - [ ]  **Require status checks to pass before merging**
-            - [ ]  **Require branches to be up to date before merging**
-        - [ ]  **Require linear history**
-        - [ ]   **Restrict who can push to matching branches**
-            - [ ]  Choose `onflow/flow` team
 
-- [ ]  Add necessary team members, adjust access levels
-    - [ ]  `onflow/flow-admin` ⇒ Admin access
-    - [ ]  `onflow/flow-engineering ` ⇒ Write access
+# Run a Flow validator node
+
+Are you interested in laying down the foundation for a new decentralized network?
+
+The Flow network is comprised of different staked node types; a separation of concerns that significantly reduces redundant effort
+
+As a result, Flow is among the most environmentally friendly Web 3 networks, with four different node types depending on hardware capacity, internet speed, and stake: 
+
+- Consensus Nodes decide the presence and order of transactions on the blockchain
+
+- Collection Nodes enhance network connectivity and data availability for dapps
+
+- Execution Nodes perform the computation associated with each transaction
+
+- Verification Nodes are responsible for keeping the Execution Nodes in check
+
+The different types of nodes are described more in-depth [here](https://developers.flow.com/next/building-on-flow/nodes/node-operation/node-roles).
+As node operator, you can choose to run any of the different types of node that best fits your needs. For more see [here](https://developers.flow.com/next/building-on-flow/nodes)
+
+_Validator Node applications are reviewed by the Flow governance working group on a rolling basis._
+
+
+> This guide is only for the validator nodes.
+>
+> To run a **light node** follow this [guide](https://developers.flow.com/next/building-on-flow/nodes/node-operation/observer-node) instead
+> 
+> To run an **access node**, follow this [guide](https://developers.flow.com/next/building-on-flow/nodes/node-operation/access-node-setup) instead
+>
+
+
+# Steps to run a validator node
+
+
+
+
+
+
+
