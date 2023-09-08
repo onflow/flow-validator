@@ -30,7 +30,16 @@ _Validator Node applications are reviewed by the Flow governance working group o
 >
 
 
-# Steps to run a validator node
+## Steps to run a validator node
+
+1. Submit an [issue](https://github.com/onflow/flow-node-operation/issues) on this repository.
+   
+2. The Flow governance working group will review the submission on a weekly basis.
+   
+3. Once approved, you can follow the [node bootstrapping guide](https://developers.flow.com/next/building-on-flow/nodes/node-operation/node-bootstrap)
+
+
+
 
 
 
