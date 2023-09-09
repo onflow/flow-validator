@@ -1,15 +1,12 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
-assignees:
-  - octocat
+name: Request to run a new node
+description: Create a new issue if you would like to run new Flow Validator node(s)
+title: "<Replace this with your Organization name e.g. ABCD Inc.>"
+projects: ["Flow Node Operation"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Please provide the following details for the node(s) that you would like to run
   - type: input
     id: contact
     attributes:
@@ -17,7 +14,7 @@ body:
       description: How can we get in touch with you if we need more info?
       placeholder: ex. email@example.com
     validations:
-      required: false
+      required: true
   - type: textarea
     id: what-happened
     attributes:
