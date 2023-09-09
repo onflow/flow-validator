@@ -5,8 +5,9 @@ title: "<Please provide the organization name as the title e.g. ABCD Inc.>"
 labels: ''
 assignees: ''
 body:
-- type: markdown
-  attributes:
-    value: "## Welcome!"
+  - type: markdown
+    attributes:
+      value: |
+        Welcome!
 
 ---
