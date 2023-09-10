@@ -42,8 +42,7 @@ body:
   - type: textarea
     id: more_info
     attributes:
-      label: More info
-      description: Please tell us more about why you want to run node(s) and any other relevant information.
+      label: Please tell us more about why you want to run node(s) and any other relevant information.
   - type: textarea
     id: flowproject
     attributes:
@@ -53,7 +52,7 @@ body:
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](../CODE_OF_CONDUCT.md)
+      description: By submitting this issue, you agree to follow our [Code of Conduct](../../CODE_OF_CONDUCT.md)
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
