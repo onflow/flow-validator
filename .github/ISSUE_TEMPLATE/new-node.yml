@@ -1,7 +1,7 @@
 name: Request to run a new node
 description: Create a new issue if you would like to run new Flow Validator node(s)
 title: "<Replace this with your organization name e.g. ABCD Inc.>"
-projects: ["Flow Node Operation"]
+projects: ["Flow Validator"]
 body:
   - type: markdown
     attributes:
@@ -65,4 +65,4 @@ body:
       value: |
         ## What happens next?
         The Flow Governance Working Group will review this issue and reach out to you
-        You can also checked the status of the issue under the project [Flow Validator](https://github.com/orgs/onflow/projects/42) project
+        You can also check the status of the issue under the project [Flow Validator](https://github.com/orgs/onflow/projects/42) project
