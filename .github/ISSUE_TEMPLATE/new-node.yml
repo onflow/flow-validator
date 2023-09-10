@@ -29,16 +29,16 @@ body:
       description: What is your Discord ID?
     validations:
       required: true
-  - type: dropdown
+  - type: checkboxes
     id: role
     attributes:
-      label: Node role you are interested in operating?
-      multiple: true
+      label: What node role are you interested in operating?
+      description: You may select more than one.
       options:
-        - Collection
-        - Consensus
-        - Verification
-        - Execution
+        - label: Collection
+        - label: Consensus
+        - label: Verification
+        - label: Execution
       validations:
        required: true       
   - type: textarea
