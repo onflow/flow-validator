@@ -46,8 +46,6 @@ body:
     attributes:
       label: More info
       description: Please tell us more about why you want to run node(s) and any other relevant information.
-      validations:
-       required: true
   - type: textarea
     id: flowproject
     attributes:
