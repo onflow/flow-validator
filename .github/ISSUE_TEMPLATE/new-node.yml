@@ -60,7 +60,7 @@ body:
     attributes:
       value: |
         Thank you for filling out the issue.
-    - type: markdown
+  - type: markdown
     attributes:
       value: |
         "What happens next?" |
