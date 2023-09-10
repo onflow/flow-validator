@@ -6,7 +6,14 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please provide the following details for the node(s) that you would like to run
+        Please provide the following details
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: Your full name
+    validations:
+      required: true
   - type: input
     id: contact
     attributes:
@@ -15,47 +22,42 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: true
-  - type: textarea
-    id: what-happened
+  - type: input
+    id: discord
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: Discord ID
+      description: What is your Discord ID?
     validations:
       required: true
   - type: dropdown
-    id: version
+    id: role
     attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-      default: 0
-    validations:
-      required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
+      label: Node role you are interested in operating?
       multiple: true
       options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+        - Collection
+        - Consensus
+        - Verification
+        - Execution
+      validations:
+       required: true       
   - type: textarea
-    id: logs
+    id: more_info
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
+      label: More info
+      description: Please tell us more about why you want to run node(s) and any other relevant information.
+      validations:
+       required: true
+   - type: textarea
+    id: flow_project
+    attributes:
+      label: Please provide links of what you’re currently working on in the context of Flow
+      description: This can be a project idea, link to the playground with a contract you’re working on, a github repo with a dapp you’re building, or anything else that indicates what you’re sharing with the community.
   - type: checkboxes
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      description: By submitting this issue, you agree to follow our [Code of Conduct](../CODE_OF_CONDUCT.md)
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
