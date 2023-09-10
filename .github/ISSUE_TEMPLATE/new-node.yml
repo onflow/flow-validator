@@ -59,10 +59,10 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for filling out the issue.
+        _Thank you for filling out the issue._
   - type: markdown
     attributes:
       value: |
-        "What happens next?" |
-        "The Flow Governance Working Group will review this issue and reach out to you" |
-        "You can also checked the status of the issue under the project [Flow Validator](https://github.com/orgs/onflow/projects/42) project
+        ## What happens next?
+        The Flow Governance Working Group will review this issue and reach out to you
+        You can also checked the status of the issue under the project [Flow Validator](https://github.com/orgs/onflow/projects/42) project
