@@ -48,8 +48,8 @@ body:
       description: Please tell us more about why you want to run node(s) and any other relevant information.
       validations:
        required: true
-   - type: textarea
-    id: flow_project
+  - type: textarea
+    id: flowproject
     attributes:
       label: Please provide links of what you’re currently working on in the context of Flow
       description: This can be a project idea, link to the playground with a contract you’re working on, a github repo with a dapp you’re building, or anything else that indicates what you’re sharing with the community.
