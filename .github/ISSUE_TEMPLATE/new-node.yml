@@ -38,9 +38,7 @@ body:
         - label: Collection
         - label: Consensus
         - label: Verification
-        - label: Execution
-      validations:
-       required: true       
+        - label: Execution      
   - type: textarea
     id: more_info
     attributes:
