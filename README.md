@@ -16,17 +16,17 @@ As a result, Flow is among the most environmentally friendly Web 3 networks, wit
 
 - Verification Nodes are responsible for keeping the Execution Nodes in check
 
-The different types of nodes are described more in-depth [here](https://developers.flow.com/references/run-and-secure/node-operation/node-roles).
-As node operator, you can choose to run any of the different types of node that best fits your needs. For more see [here](https://developers.flow.com/references/run-and-secure/node-operation)
+The different types of nodes are described more in-depth [here](https://developers.flow.com/networks/node-ops/node-operation/node-roles).
+As node operator, you can choose to run any of the different types of node that best fits your needs. For more see [here](https://developers.flow.com/networks/node-ops)
 
 _Validator Node applications are reviewed by the Flow governance working group on a rolling basis._
 
 
 > This guide is only for the validator nodes.
 >
-> To run a **light node** follow this [guide](https://developers.flow.com/references/run-and-secure/node-operation/observer-node) instead
+> To run a **light node** follow this [guide](https://developers.flow.com/networks/node-ops/access-onchain-data/light-nodes/observer-node) instead
 > 
-> To run an **access node**, follow this [guide](https://developers.flow.com/references/run-and-secure/node-operation/access-node-setup) instead
+> To run an **access node**, follow this [guide](https://developers.flow.com/networks/node-ops/access-onchain-data/access-nodes/access-node-setup) instead
 >
 
 
@@ -36,7 +36,7 @@ _Validator Node applications are reviewed by the Flow governance working group o
    
 2. The Flow governance working group will review the submission on a weekly basis.
    
-3. Once approved, you can follow the [node bootstrapping guide](https://developers.flow.com/references/run-and-secure/node-operation/node-bootstrap)
+3. Once approved, you can follow the [node bootstrapping guide](https://developers.flow.com/networks/node-ops/node-operation/node-bootstrap)
 
 
 
